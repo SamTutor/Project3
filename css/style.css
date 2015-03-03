@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+}
+
+div.charselect{
+    display: block;
+    float: middle;
+    text-align: center;
+    max-width: 660px;
+    min-height: 250px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
+div.charselect label{
+    display: block;
+    text-align: center;
+    margin: 0 auto
+}
+
+div.charactermenu{
+    margin: 0 auto;
+}
+
+div.character{
+    float: left;
+    width: 130px;
+    margin: 0 auto;
+}
+
+div.character label{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.character.input{
+    margin-left: 4px;
+}
+
+div.newGame {
+    position: relative;
+    display: block;
+    min-height: 75px;
+    max-width: 660px;
+    text-align: center;
+    line-height: 50px;
+}
+
+div.GameScreen{
+    text-align: center;
+    vertical-align: text-top;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    border: 0px;
+}

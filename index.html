@@ -1,0 +1,61 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Udacity Project 3: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="charselect" class="charselect">
+        <label>CHOOSE CHARACTER TO PLAY THE GAME AND PRESS THE START BUTTON</label>
+
+        <form id="GameOpeningScreen" class="charactermenu">
+            <fieldset>
+
+            <div class="character">
+            <img src="images/mini-char-boy.png">
+            <label>Boy</label>
+            <input type="radio" id="gameChar" name="gameChar" value="char-boy.png" checked>
+            </div>
+
+            <div class="character">
+            <img src="images/mini-char-cat-girl.png">
+            <label>Cat Girl</label>
+            <input type="radio" id="gameChar" name="gameChar" value="char-cat-girl.png">
+            </div>
+
+            <div class="character">
+            <img src="images/mini-char-horn-girl.png">
+            <label>Horn Girl</label>
+            <input type="radio" id="gameChar" name="gameChar" value="char-horn-girl.png">
+            </div>
+
+            <div class="character">
+            <img src="images/mini-char-pink-girl.png">
+            <label>Pink Girl</label>
+            <input type="radio" id="gameChar" name="gameChar" value="char-pink-girl.png">
+            </div>
+
+            <div class="character">
+            <img src="images/mini-char-princess-girl.png">
+            <label>Princess</label>
+            <input type="radio" id="gameChar" name="gameChar" value="char-princess-girl.png">
+            </div>
+
+            </fieldset>
+        </form>
+
+
+        <div><button id="Start_Game">START/RESET</button></div>
+        <div id="canvasDiv" class="GameScreen"></div>
+        
+    </div>
+
+
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

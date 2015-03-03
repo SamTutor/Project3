@@ -1,0 +1,7 @@
+Sources referred to
+www.w3schools.com
+www.stackoverflow.com
+www.html5canvastutorials.com
+https://github.com/JasML/arcade-game.git
+class discussion Board etc
+
